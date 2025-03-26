@@ -5,7 +5,7 @@ CFLAGS = -mthumb -mcpu=$(MCU) -DSTM32F4 -I./inc
 LDFLAGS = -Tstm32f401ccu6.ld -nostartfiles
 
 # Archivos fuente
-SRCS = src/main.c
+SRCS = src/firmware.c
 
 # Herramientas
 CC = arm-none-eabi-gcc
