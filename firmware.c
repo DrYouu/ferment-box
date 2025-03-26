@@ -4,7 +4,7 @@
 #define MOSFET_PIN GPIO_PIN_0
 #define MOSFET_PORT GPIOA
 #define TEMP_SETPOINT 25.0f  // Temperatura deseada (25°C)
-#define HYSTERESIS 0.5f      // Margen para evitar oscilaciones (+/-0.5°C)
+#define HYSTERESIS 1f      // Margen para evitar oscilaciones (+/-1°C)
 
 int main(void) {
     HAL_Init();
@@ -29,6 +29,6 @@ int main(void) {
             HAL_GPIO_WritePin(MOSFET_PORT, MOSFET_PIN, GPIO_PIN_RESET);  // APAGA
         }
         
-        HAL_Delay(1000);  // Espera 1 segundo entre lecturas
+        HAL_Delay(5000);  // Espera 5 segundos entre lecturas
     }
 }
