@@ -9,6 +9,6 @@ El montaje incluye:
 ![step down](images/StepDown.jpg)  
 -una placa de desarrollo (sirve cualquier arduino-like) [esp12f](https://www.wemos.cc/en/latest/d1/d1_mini_3.1.0.html).  
 ![placa de desarrollo](images/ESP12F.jpg)  
--un mosfet, relé o ssr que funcione a 3v.  
 -una cama caliente [RepRap PCB Heatbed MK1](https://reprap.org/wiki/PCB_Heatbed).  
 ![cama caliente](images/HeatBed.jpg)  
+-un mosfet, relé o ssr que funcione a 3v.  
